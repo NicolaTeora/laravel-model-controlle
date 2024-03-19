@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Guest\PageController;
+use App\Http\Controllers\Guest\MoviePageController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 //imposto il controller per gestire la rotta delle pagine
-Route::get('/', [PageController::class, 'index'])->name('home');
+
+Route::get('/', [PageController::class, 'home'])->name('home');
+
+//imposto il controller per gestire la rotta delle RISORSE
+
+Route::get('/movies', [MoviePageController::class, 'index'])->name('movies');
