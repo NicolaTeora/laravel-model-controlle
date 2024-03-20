@@ -3,9 +3,9 @@
 @section('title', 'Movies')
 
 @section('main-content')
-  <main class="container">
+  <main class="container py-4">
 
-    <h1>homepage</h1>
+    <h1>Boolflix (??)</h1>
 
   </main>
 @endsection

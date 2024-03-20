@@ -1,7 +1,7 @@
-<footer>
-<hr>
+<footer class="bg-secondary text-white py-3 mt-auto">
     <div class="container">
-        <h5>footer</h5>
-    </div>
 
+        <b>footer items</b>
+    
+    </div>
 </footer>
