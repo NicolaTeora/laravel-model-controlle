@@ -19,6 +19,9 @@
                             <li>
                                 <b>Vote: </b>{{$movie->vote}}
                             </li>
+                            <li>
+                                <a href="{{route('more-info', $movie)}}">More info</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

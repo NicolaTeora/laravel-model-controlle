@@ -22,3 +22,4 @@ Route::get('/', [PageController::class, 'home'])->name('home');
 //imposto il controller per gestire la rotta delle RISORSE
 
 Route::get('/movies', [MoviePageController::class, 'index'])->name('movies');
+Route::get('/more-info/{movie}', [MoviePageController::class, 'MoreInfoMovie'])->name('more-info');
