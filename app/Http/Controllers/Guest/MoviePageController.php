@@ -24,6 +24,6 @@ class MoviePageController extends Controller
 
     public function MoreInfoMovie(Movie $movie)
     {
-        dd($movie);
+        return view('more-info', compact('movie'));
     }
 }

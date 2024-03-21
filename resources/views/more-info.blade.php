@@ -6,6 +6,6 @@
   <main class="container py-4">
 
     <h3>more info movie</h3>
-
+    {{dump($movie)}}
   </main>
 @endsection
